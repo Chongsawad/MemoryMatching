@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MatchingGameProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MatchingGameProjectAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		CE1B75EC11FE8D4F00609B84 /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1B75EA11FE8D4F00609B84 /* HighScoreViewController.m */; };
+		CE1B75ED11FE8D4F00609B84 /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1B75EB11FE8D4F00609B84 /* HighScoreViewController.xib */; };
+		CE2C3B3311F21A8500FC8DEF /* StartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3B3111F21A8500FC8DEF /* StartGameViewController.m */; };
+		CE2C3B3411F21A8500FC8DEF /* StartGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2C3B3211F21A8500FC8DEF /* StartGameViewController.xib */; };
+		CE2C3B6011F21E4900FC8DEF /* LoadGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3B5E11F21E4900FC8DEF /* LoadGame.m */; };
+		CE2C3B6111F21E4900FC8DEF /* LoadGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2C3B5F11F21E4900FC8DEF /* LoadGame.xib */; };
+		CE2C3B7211F222DA00FC8DEF /* EndGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3B7011F222DA00FC8DEF /* EndGame.m */; };
+		CE2C3B7311F222DA00FC8DEF /* EndGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2C3B7111F222DA00FC8DEF /* EndGame.xib */; };
+		CE67FA4511F889D500C861A5 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67FA4411F889D500C861A5 /* ScoreViewController.m */; };
+		CE76EEB811F82A9D007B1C8A /* topScore.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE76EEB711F82A9D007B1C8A /* topScore.plist */; };
+		CE7AEF4B12004AE3003F8A05 /* 1_mama.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4212004AE3003F8A05 /* 1_mama.png */; };
+		CE7AEF4C12004AE3003F8A05 /* 1_papa.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4312004AE3003F8A05 /* 1_papa.png */; };
+		CE7AEF4D12004AE3003F8A05 /* 3_brother.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4412004AE3003F8A05 /* 3_brother.png */; };
+		CE7AEF4E12004AE3003F8A05 /* 3_sister.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4512004AE3003F8A05 /* 3_sister.png */; };
+		CE7AEF4F12004AE3003F8A05 /* 6_uncle.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4612004AE3003F8A05 /* 6_uncle.png */; };
+		CE7AEF5012004AE3003F8A05 /* 7_boy.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4712004AE3003F8A05 /* 7_boy.png */; };
+		CE7AEF5112004AE3003F8A05 /* 7_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4812004AE3003F8A05 /* 7_girl.png */; };
+		CE7AEF5212004AE3003F8A05 /* 8_friend1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4912004AE3003F8A05 /* 8_friend1.png */; };
+		CE7AEF5312004AE3003F8A05 /* 8_friend2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF4A12004AE3003F8A05 /* 8_friend2.png */; };
+		CE7AEF6412004B31003F8A05 /* 1_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5412004B31003F8A05 /* 1_ball.png */; };
+		CE7AEF6512004B31003F8A05 /* 1_equipment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5512004B31003F8A05 /* 1_equipment.png */; };
+		CE7AEF6612004B31003F8A05 /* 2_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5612004B31003F8A05 /* 2_ball.png */; };
+		CE7AEF6712004B31003F8A05 /* 2_equipment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5712004B31003F8A05 /* 2_equipment.png */; };
+		CE7AEF6812004B31003F8A05 /* 3_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5812004B31003F8A05 /* 3_ball.png */; };
+		CE7AEF6912004B31003F8A05 /* 3_equipment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5912004B31003F8A05 /* 3_equipment.png */; };
+		CE7AEF6A12004B31003F8A05 /* 4_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5A12004B31003F8A05 /* 4_ball.png */; };
+		CE7AEF6B12004B31003F8A05 /* 4_equipment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5B12004B31003F8A05 /* 4_equipment.png */; };
+		CE7AEF6C12004B31003F8A05 /* 5_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5C12004B31003F8A05 /* 5_ball.png */; };
+		CE7AEF6D12004B31003F8A05 /* 5_equipment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5D12004B31003F8A05 /* 5_equipment.png */; };
+		CE7AEF6E12004B31003F8A05 /* 6_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5E12004B31003F8A05 /* 6_ball.png */; };
+		CE7AEF6F12004B31003F8A05 /* 6_equipment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF5F12004B31003F8A05 /* 6_equipment.png */; };
+		CE7AEF7012004B31003F8A05 /* 7_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF6012004B31003F8A05 /* 7_ball.png */; };
+		CE7AEF7112004B31003F8A05 /* 7_equipment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF6112004B31003F8A05 /* 7_equipment.png */; };
+		CE7AEF7212004B31003F8A05 /* 8_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF6212004B31003F8A05 /* 8_ball.png */; };
+		CE7AEF7312004B31003F8A05 /* 8_equipment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF6312004B31003F8A05 /* 8_equipment.png */; };
+		CE7AEF9812004B60003F8A05 /* 1_mango.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF9012004B60003F8A05 /* 1_mango.png */; };
+		CE7AEF9912004B60003F8A05 /* 2_pear.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF9112004B60003F8A05 /* 2_pear.png */; };
+		CE7AEF9A12004B60003F8A05 /* 3_banana.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF9212004B60003F8A05 /* 3_banana.png */; };
+		CE7AEF9B12004B60003F8A05 /* 4_strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF9312004B60003F8A05 /* 4_strawberry.png */; };
+		CE7AEF9C12004B60003F8A05 /* 5_mangosteen.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF9412004B60003F8A05 /* 5_mangosteen.png */; };
+		CE7AEF9D12004B60003F8A05 /* 6_kiwi.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF9512004B60003F8A05 /* 6_kiwi.png */; };
+		CE7AEF9E12004B60003F8A05 /* 7_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF9612004B60003F8A05 /* 7_orange.png */; };
+		CE7AEF9F12004B60003F8A05 /* 8_coconut.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEF9712004B60003F8A05 /* 8_coconut.png */; };
+		CE7AEFA812004B6D003F8A05 /* 1_cat.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFA012004B6D003F8A05 /* 1_cat.png */; };
+		CE7AEFA912004B6D003F8A05 /* 2_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFA112004B6D003F8A05 /* 2_fish.png */; };
+		CE7AEFAA12004B6D003F8A05 /* 3_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFA212004B6D003F8A05 /* 3_dog.png */; };
+		CE7AEFAB12004B6D003F8A05 /* 4_elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFA312004B6D003F8A05 /* 4_elephant.png */; };
+		CE7AEFAC12004B6D003F8A05 /* 5_bird.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFA412004B6D003F8A05 /* 5_bird.png */; };
+		CE7AEFAD12004B6D003F8A05 /* 6_frog.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFA512004B6D003F8A05 /* 6_frog.png */; };
+		CE7AEFAE12004B6D003F8A05 /* 7_panda.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFA612004B6D003F8A05 /* 7_panda.png */; };
+		CE7AEFAF12004B6D003F8A05 /* 8_fox.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFA712004B6D003F8A05 /* 8_fox.png */; };
+		CE7AEFBB12004BA5003F8A05 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFB412004BA5003F8A05 /* bg.png */; };
+		CE7AEFBC12004BA5003F8A05 /* cardCartoon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFB512004BA5003F8A05 /* cardCartoon.png */; };
+		CE7AEFBD12004BA5003F8A05 /* cardSport.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFB612004BA5003F8A05 /* cardSport.png */; };
+		CE7AEFBE12004BA5003F8A05 /* exitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFB712004BA5003F8A05 /* exitButton.png */; };
+		CE7AEFBF12004BA5003F8A05 /* labelHighScore.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFB812004BA5003F8A05 /* labelHighScore.png */; };
+		CE7AEFC312004BD4003F8A05 /* cardFruit.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AEFC212004BD4003F8A05 /* cardFruit.png */; };
+		CED117E711FCC17B00981075 /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED117E511FCC17B00981075 /* settingViewController.m */; };
+		CED117E811FCC17B00981075 /* settingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED117E611FCC17B00981075 /* settingViewController.xib */; };
+		CEDD87AB1200A34600C58E2C /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDD87AA1200A34600C58E2C /* pauseButton.png */; };
+		CEFA78DF12012D27005FCC70 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFA78DE12012D27005FCC70 /* icon.png */; };
+		CEFA794F12014078005FCC70 /* gameControlBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFA794C12014078005FCC70 /* gameControlBar.png */; };
+		CEFA795012014078005FCC70 /* tiger-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFA794D12014078005FCC70 /* tiger-1.png */; };
+		CEFA795112014078005FCC70 /* tiger-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFA794E12014078005FCC70 /* tiger-2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MatchingGameProjectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingGameProjectAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MatchingGameProjectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingGameProjectAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MatchingGameProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchingGameProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MatchingGameProject_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingGameProject_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MatchingGameProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MatchingGameProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE1B75E911FE8D4F00609B84 /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		CE1B75EA11FE8D4F00609B84 /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		CE1B75EB11FE8D4F00609B84 /* HighScoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighScoreViewController.xib; sourceTree = "<group>"; };
+		CE2C3B3011F21A8500FC8DEF /* StartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartGameViewController.h; sourceTree = "<group>"; };
+		CE2C3B3111F21A8500FC8DEF /* StartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartGameViewController.m; sourceTree = "<group>"; };
+		CE2C3B3211F21A8500FC8DEF /* StartGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartGameViewController.xib; sourceTree = "<group>"; };
+		CE2C3B5D11F21E4900FC8DEF /* LoadGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadGame.h; sourceTree = "<group>"; };
+		CE2C3B5E11F21E4900FC8DEF /* LoadGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadGame.m; sourceTree = "<group>"; };
+		CE2C3B5F11F21E4900FC8DEF /* LoadGame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadGame.xib; sourceTree = "<group>"; };
+		CE2C3B6F11F222DA00FC8DEF /* EndGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndGame.h; sourceTree = "<group>"; };
+		CE2C3B7011F222DA00FC8DEF /* EndGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndGame.m; sourceTree = "<group>"; };
+		CE2C3B7111F222DA00FC8DEF /* EndGame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EndGame.xib; sourceTree = "<group>"; };
+		CE67FA4311F889D500C861A5 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		CE67FA4411F889D500C861A5 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		CE76EEB711F82A9D007B1C8A /* topScore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topScore.plist; sourceTree = "<group>"; };
+		CE7AEF4212004AE3003F8A05 /* 1_mama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1_mama.png; path = cartoon/1_mama.png; sourceTree = "<group>"; };
+		CE7AEF4312004AE3003F8A05 /* 1_papa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1_papa.png; path = cartoon/1_papa.png; sourceTree = "<group>"; };
+		CE7AEF4412004AE3003F8A05 /* 3_brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_brother.png; path = cartoon/3_brother.png; sourceTree = "<group>"; };
+		CE7AEF4512004AE3003F8A05 /* 3_sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_sister.png; path = cartoon/3_sister.png; sourceTree = "<group>"; };
+		CE7AEF4612004AE3003F8A05 /* 6_uncle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6_uncle.png; path = cartoon/6_uncle.png; sourceTree = "<group>"; };
+		CE7AEF4712004AE3003F8A05 /* 7_boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7_boy.png; path = cartoon/7_boy.png; sourceTree = "<group>"; };
+		CE7AEF4812004AE3003F8A05 /* 7_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7_girl.png; path = cartoon/7_girl.png; sourceTree = "<group>"; };
+		CE7AEF4912004AE3003F8A05 /* 8_friend1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8_friend1.png; path = cartoon/8_friend1.png; sourceTree = "<group>"; };
+		CE7AEF4A12004AE3003F8A05 /* 8_friend2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8_friend2.png; path = cartoon/8_friend2.png; sourceTree = "<group>"; };
+		CE7AEF5412004B31003F8A05 /* 1_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1_ball.png; path = sport/1_ball.png; sourceTree = "<group>"; };
+		CE7AEF5512004B31003F8A05 /* 1_equipment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1_equipment.png; path = sport/1_equipment.png; sourceTree = "<group>"; };
+		CE7AEF5612004B31003F8A05 /* 2_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2_ball.png; path = sport/2_ball.png; sourceTree = "<group>"; };
+		CE7AEF5712004B31003F8A05 /* 2_equipment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2_equipment.png; path = sport/2_equipment.png; sourceTree = "<group>"; };
+		CE7AEF5812004B31003F8A05 /* 3_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_ball.png; path = sport/3_ball.png; sourceTree = "<group>"; };
+		CE7AEF5912004B31003F8A05 /* 3_equipment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_equipment.png; path = sport/3_equipment.png; sourceTree = "<group>"; };
+		CE7AEF5A12004B31003F8A05 /* 4_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4_ball.png; path = sport/4_ball.png; sourceTree = "<group>"; };
+		CE7AEF5B12004B31003F8A05 /* 4_equipment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4_equipment.png; path = sport/4_equipment.png; sourceTree = "<group>"; };
+		CE7AEF5C12004B31003F8A05 /* 5_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5_ball.png; path = sport/5_ball.png; sourceTree = "<group>"; };
+		CE7AEF5D12004B31003F8A05 /* 5_equipment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5_equipment.png; path = sport/5_equipment.png; sourceTree = "<group>"; };
+		CE7AEF5E12004B31003F8A05 /* 6_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6_ball.png; path = sport/6_ball.png; sourceTree = "<group>"; };
+		CE7AEF5F12004B31003F8A05 /* 6_equipment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6_equipment.png; path = sport/6_equipment.png; sourceTree = "<group>"; };
+		CE7AEF6012004B31003F8A05 /* 7_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7_ball.png; path = sport/7_ball.png; sourceTree = "<group>"; };
+		CE7AEF6112004B31003F8A05 /* 7_equipment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7_equipment.png; path = sport/7_equipment.png; sourceTree = "<group>"; };
+		CE7AEF6212004B31003F8A05 /* 8_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8_ball.png; path = sport/8_ball.png; sourceTree = "<group>"; };
+		CE7AEF6312004B31003F8A05 /* 8_equipment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8_equipment.png; path = sport/8_equipment.png; sourceTree = "<group>"; };
+		CE7AEF9012004B60003F8A05 /* 1_mango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1_mango.png; path = fruit/1_mango.png; sourceTree = "<group>"; };
+		CE7AEF9112004B60003F8A05 /* 2_pear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2_pear.png; path = fruit/2_pear.png; sourceTree = "<group>"; };
+		CE7AEF9212004B60003F8A05 /* 3_banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_banana.png; path = fruit/3_banana.png; sourceTree = "<group>"; };
+		CE7AEF9312004B60003F8A05 /* 4_strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4_strawberry.png; path = fruit/4_strawberry.png; sourceTree = "<group>"; };
+		CE7AEF9412004B60003F8A05 /* 5_mangosteen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5_mangosteen.png; path = fruit/5_mangosteen.png; sourceTree = "<group>"; };
+		CE7AEF9512004B60003F8A05 /* 6_kiwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6_kiwi.png; path = fruit/6_kiwi.png; sourceTree = "<group>"; };
+		CE7AEF9612004B60003F8A05 /* 7_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7_orange.png; path = fruit/7_orange.png; sourceTree = "<group>"; };
+		CE7AEF9712004B60003F8A05 /* 8_coconut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8_coconut.png; path = fruit/8_coconut.png; sourceTree = "<group>"; };
+		CE7AEFA012004B6D003F8A05 /* 1_cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1_cat.png; path = animal/1_cat.png; sourceTree = "<group>"; };
+		CE7AEFA112004B6D003F8A05 /* 2_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2_fish.png; path = animal/2_fish.png; sourceTree = "<group>"; };
+		CE7AEFA212004B6D003F8A05 /* 3_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_dog.png; path = animal/3_dog.png; sourceTree = "<group>"; };
+		CE7AEFA312004B6D003F8A05 /* 4_elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4_elephant.png; path = animal/4_elephant.png; sourceTree = "<group>"; };
+		CE7AEFA412004B6D003F8A05 /* 5_bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5_bird.png; path = animal/5_bird.png; sourceTree = "<group>"; };
+		CE7AEFA512004B6D003F8A05 /* 6_frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6_frog.png; path = animal/6_frog.png; sourceTree = "<group>"; };
+		CE7AEFA612004B6D003F8A05 /* 7_panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7_panda.png; path = animal/7_panda.png; sourceTree = "<group>"; };
+		CE7AEFA712004B6D003F8A05 /* 8_fox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8_fox.png; path = animal/8_fox.png; sourceTree = "<group>"; };
+		CE7AEFB412004BA5003F8A05 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		CE7AEFB512004BA5003F8A05 /* cardCartoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardCartoon.png; sourceTree = "<group>"; };
+		CE7AEFB612004BA5003F8A05 /* cardSport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardSport.png; sourceTree = "<group>"; };
+		CE7AEFB712004BA5003F8A05 /* exitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exitButton.png; sourceTree = "<group>"; };
+		CE7AEFB812004BA5003F8A05 /* labelHighScore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = labelHighScore.png; sourceTree = "<group>"; };
+		CE7AEFC212004BD4003F8A05 /* cardFruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardFruit.png; sourceTree = "<group>"; };
+		CED117E411FCC17B00981075 /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		CED117E511FCC17B00981075 /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
+		CED117E611FCC17B00981075 /* settingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = settingViewController.xib; sourceTree = "<group>"; };
+		CEDD87AA1200A34600C58E2C /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		CEFA78DE12012D27005FCC70 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CEFA794C12014078005FCC70 /* gameControlBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameControlBar.png; sourceTree = "<group>"; };
+		CEFA794D12014078005FCC70 /* tiger-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiger-1.png"; sourceTree = "<group>"; };
+		CEFA794E12014078005FCC70 /* tiger-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiger-2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				1D3623240D0F684500981E51 /* MatchingGameProjectAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MatchingGameProjectAppDelegate.m */,
+				CE2C3B3011F21A8500FC8DEF /* StartGameViewController.h */,
+				CE2C3B3111F21A8500FC8DEF /* StartGameViewController.m */,
+				CE2C3B3211F21A8500FC8DEF /* StartGameViewController.xib */,
+				CE2C3B5D11F21E4900FC8DEF /* LoadGame.h */,
+				CE2C3B5E11F21E4900FC8DEF /* LoadGame.m */,
+				CE2C3B5F11F21E4900FC8DEF /* LoadGame.xib */,
+				CE2C3B6F11F222DA00FC8DEF /* EndGame.h */,
+				CE2C3B7011F222DA00FC8DEF /* EndGame.m */,
+				CE2C3B7111F222DA00FC8DEF /* EndGame.xib */,
+				CE67FA4311F889D500C861A5 /* ScoreViewController.h */,
+				CE67FA4411F889D500C861A5 /* ScoreViewController.m */,
+				CED117E411FCC17B00981075 /* settingViewController.h */,
+				CED117E511FCC17B00981075 /* settingViewController.m */,
+				CED117E611FCC17B00981075 /* settingViewController.xib */,
+				CE1B75E911FE8D4F00609B84 /* HighScoreViewController.h */,
+				CE1B75EA11FE8D4F00609B84 /* HighScoreViewController.m */,
+				CE1B75EB11FE8D4F00609B84 /* HighScoreViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MatchingGameProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MatchingGameProject_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA794C12014078005FCC70 /* gameControlBar.png */,
+				CEFA794D12014078005FCC70 /* tiger-1.png */,
+				CEFA794E12014078005FCC70 /* tiger-2.png */,
+				CEFA78DE12012D27005FCC70 /* icon.png */,
+				CEDD87AA1200A34600C58E2C /* pauseButton.png */,
+				CE7AEFC212004BD4003F8A05 /* cardFruit.png */,
+				CE7AEFB412004BA5003F8A05 /* bg.png */,
+				CE7AEFB512004BA5003F8A05 /* cardCartoon.png */,
+				CE7AEFB612004BA5003F8A05 /* cardSport.png */,
+				CE7AEFB712004BA5003F8A05 /* exitButton.png */,
+				CE7AEFB812004BA5003F8A05 /* labelHighScore.png */,
+				CE7AEF4012004AA4003F8A05 /* cartoon */,
+				CE7AEF3D12004A99003F8A05 /* sport */,
+				CE7AEF3C12004A94003F8A05 /* fruit */,
+				CE7AEF3B12004A8E003F8A05 /* animal */,
+				8D1107310486CEB800E47090 /* MatchingGameProject-Info.plist */,
+				CE76EEB711F82A9D007B1C8A /* topScore.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7AEF3B12004A8E003F8A05 /* animal */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AEFA012004B6D003F8A05 /* 1_cat.png */,
+				CE7AEFA112004B6D003F8A05 /* 2_fish.png */,
+				CE7AEFA212004B6D003F8A05 /* 3_dog.png */,
+				CE7AEFA312004B6D003F8A05 /* 4_elephant.png */,
+				CE7AEFA412004B6D003F8A05 /* 5_bird.png */,
+				CE7AEFA512004B6D003F8A05 /* 6_frog.png */,
+				CE7AEFA612004B6D003F8A05 /* 7_panda.png */,
+				CE7AEFA712004B6D003F8A05 /* 8_fox.png */,
+			);
+			name = animal;
+			sourceTree = "<group>";
+		};
+		CE7AEF3C12004A94003F8A05 /* fruit */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AEF9012004B60003F8A05 /* 1_mango.png */,
+				CE7AEF9112004B60003F8A05 /* 2_pear.png */,
+				CE7AEF9212004B60003F8A05 /* 3_banana.png */,
+				CE7AEF9312004B60003F8A05 /* 4_strawberry.png */,
+				CE7AEF9412004B60003F8A05 /* 5_mangosteen.png */,
+				CE7AEF9512004B60003F8A05 /* 6_kiwi.png */,
+				CE7AEF9612004B60003F8A05 /* 7_orange.png */,
+				CE7AEF9712004B60003F8A05 /* 8_coconut.png */,
+			);
+			name = fruit;
+			sourceTree = "<group>";
+		};
+		CE7AEF3D12004A99003F8A05 /* sport */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AEF5412004B31003F8A05 /* 1_ball.png */,
+				CE7AEF5512004B31003F8A05 /* 1_equipment.png */,
+				CE7AEF5612004B31003F8A05 /* 2_ball.png */,
+				CE7AEF5712004B31003F8A05 /* 2_equipment.png */,
+				CE7AEF5812004B31003F8A05 /* 3_ball.png */,
+				CE7AEF5912004B31003F8A05 /* 3_equipment.png */,
+				CE7AEF5A12004B31003F8A05 /* 4_ball.png */,
+				CE7AEF5B12004B31003F8A05 /* 4_equipment.png */,
+				CE7AEF5C12004B31003F8A05 /* 5_ball.png */,
+				CE7AEF5D12004B31003F8A05 /* 5_equipment.png */,
+				CE7AEF5E12004B31003F8A05 /* 6_ball.png */,
+				CE7AEF5F12004B31003F8A05 /* 6_equipment.png */,
+				CE7AEF6012004B31003F8A05 /* 7_ball.png */,
+				CE7AEF6112004B31003F8A05 /* 7_equipment.png */,
+				CE7AEF6212004B31003F8A05 /* 8_ball.png */,
+				CE7AEF6312004B31003F8A05 /* 8_equipment.png */,
+			);
+			name = sport;
+			sourceTree = "<group>";
+		};
+		CE7AEF4012004AA4003F8A05 /* cartoon */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AEF4212004AE3003F8A05 /* 1_mama.png */,
+				CE7AEF4312004AE3003F8A05 /* 1_papa.png */,
+				CE7AEF4412004AE3003F8A05 /* 3_brother.png */,
+				CE7AEF4512004AE3003F8A05 /* 3_sister.png */,
+				CE7AEF4612004AE3003F8A05 /* 6_uncle.png */,
+				CE7AEF4712004AE3003F8A05 /* 7_boy.png */,
+				CE7AEF4812004AE3003F8A05 /* 7_girl.png */,
+				CE7AEF4912004AE3003F8A05 /* 8_friend1.png */,
+				CE7AEF4A12004AE3003F8A05 /* 8_friend2.png */,
+			);
+			name = cartoon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MatchingGameProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MatchingGameProject" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatchingGameProject;
+			productName = MatchingGameProject;
+			productReference = 1D6058910D05DD3D006BFB54 /* MatchingGameProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MatchingGameProject" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MatchingGameProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				CE2C3B3411F21A8500FC8DEF /* StartGameViewController.xib in Resources */,
+				CE2C3B6111F21E4900FC8DEF /* LoadGame.xib in Resources */,
+				CE2C3B7311F222DA00FC8DEF /* EndGame.xib in Resources */,
+				CE76EEB811F82A9D007B1C8A /* topScore.plist in Resources */,
+				CED117E811FCC17B00981075 /* settingViewController.xib in Resources */,
+				CE1B75ED11FE8D4F00609B84 /* HighScoreViewController.xib in Resources */,
+				CE7AEF4B12004AE3003F8A05 /* 1_mama.png in Resources */,
+				CE7AEF4C12004AE3003F8A05 /* 1_papa.png in Resources */,
+				CE7AEF4D12004AE3003F8A05 /* 3_brother.png in Resources */,
+				CE7AEF4E12004AE3003F8A05 /* 3_sister.png in Resources */,
+				CE7AEF4F12004AE3003F8A05 /* 6_uncle.png in Resources */,
+				CE7AEF5012004AE3003F8A05 /* 7_boy.png in Resources */,
+				CE7AEF5112004AE3003F8A05 /* 7_girl.png in Resources */,
+				CE7AEF5212004AE3003F8A05 /* 8_friend1.png in Resources */,
+				CE7AEF5312004AE3003F8A05 /* 8_friend2.png in Resources */,
+				CE7AEF6412004B31003F8A05 /* 1_ball.png in Resources */,
+				CE7AEF6512004B31003F8A05 /* 1_equipment.png in Resources */,
+				CE7AEF6612004B31003F8A05 /* 2_ball.png in Resources */,
+				CE7AEF6712004B31003F8A05 /* 2_equipment.png in Resources */,
+				CE7AEF6812004B31003F8A05 /* 3_ball.png in Resources */,
+				CE7AEF6912004B31003F8A05 /* 3_equipment.png in Resources */,
+				CE7AEF6A12004B31003F8A05 /* 4_ball.png in Resources */,
+				CE7AEF6B12004B31003F8A05 /* 4_equipment.png in Resources */,
+				CE7AEF6C12004B31003F8A05 /* 5_ball.png in Resources */,
+				CE7AEF6D12004B31003F8A05 /* 5_equipment.png in Resources */,
+				CE7AEF6E12004B31003F8A05 /* 6_ball.png in Resources */,
+				CE7AEF6F12004B31003F8A05 /* 6_equipment.png in Resources */,
+				CE7AEF7012004B31003F8A05 /* 7_ball.png in Resources */,
+				CE7AEF7112004B31003F8A05 /* 7_equipment.png in Resources */,
+				CE7AEF7212004B31003F8A05 /* 8_ball.png in Resources */,
+				CE7AEF7312004B31003F8A05 /* 8_equipment.png in Resources */,
+				CE7AEF9812004B60003F8A05 /* 1_mango.png in Resources */,
+				CE7AEF9912004B60003F8A05 /* 2_pear.png in Resources */,
+				CE7AEF9A12004B60003F8A05 /* 3_banana.png in Resources */,
+				CE7AEF9B12004B60003F8A05 /* 4_strawberry.png in Resources */,
+				CE7AEF9C12004B60003F8A05 /* 5_mangosteen.png in Resources */,
+				CE7AEF9D12004B60003F8A05 /* 6_kiwi.png in Resources */,
+				CE7AEF9E12004B60003F8A05 /* 7_orange.png in Resources */,
+				CE7AEF9F12004B60003F8A05 /* 8_coconut.png in Resources */,
+				CE7AEFA812004B6D003F8A05 /* 1_cat.png in Resources */,
+				CE7AEFA912004B6D003F8A05 /* 2_fish.png in Resources */,
+				CE7AEFAA12004B6D003F8A05 /* 3_dog.png in Resources */,
+				CE7AEFAB12004B6D003F8A05 /* 4_elephant.png in Resources */,
+				CE7AEFAC12004B6D003F8A05 /* 5_bird.png in Resources */,
+				CE7AEFAD12004B6D003F8A05 /* 6_frog.png in Resources */,
+				CE7AEFAE12004B6D003F8A05 /* 7_panda.png in Resources */,
+				CE7AEFAF12004B6D003F8A05 /* 8_fox.png in Resources */,
+				CE7AEFBB12004BA5003F8A05 /* bg.png in Resources */,
+				CE7AEFBC12004BA5003F8A05 /* cardCartoon.png in Resources */,
+				CE7AEFBD12004BA5003F8A05 /* cardSport.png in Resources */,
+				CE7AEFBE12004BA5003F8A05 /* exitButton.png in Resources */,
+				CE7AEFBF12004BA5003F8A05 /* labelHighScore.png in Resources */,
+				CE7AEFC312004BD4003F8A05 /* cardFruit.png in Resources */,
+				CEDD87AB1200A34600C58E2C /* pauseButton.png in Resources */,
+				CEFA78DF12012D27005FCC70 /* icon.png in Resources */,
+				CEFA794F12014078005FCC70 /* gameControlBar.png in Resources */,
+				CEFA795012014078005FCC70 /* tiger-1.png in Resources */,
+				CEFA795112014078005FCC70 /* tiger-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MatchingGameProjectAppDelegate.m in Sources */,
+				CE2C3B3311F21A8500FC8DEF /* StartGameViewController.m in Sources */,
+				CE2C3B6011F21E4900FC8DEF /* LoadGame.m in Sources */,
+				CE2C3B7211F222DA00FC8DEF /* EndGame.m in Sources */,
+				CE67FA4511F889D500C861A5 /* ScoreViewController.m in Sources */,
+				CED117E711FCC17B00981075 /* settingViewController.m in Sources */,
+				CE1B75EC11FE8D4F00609B84 /* HighScoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MatchingGameProject_Prefix.pch;
+				INFOPLIST_FILE = "MatchingGameProject-Info.plist";
+				PRODUCT_NAME = MatchingGameProject;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MatchingGameProject_Prefix.pch;
+				INFOPLIST_FILE = "MatchingGameProject-Info.plist";
+				PRODUCT_NAME = MatchingGameProject;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MatchingGameProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MatchingGameProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
